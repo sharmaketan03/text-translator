@@ -21,6 +21,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top:5rem;
+    
 }
 #select2,#select1{
    padding:0.3rem;
@@ -43,5 +44,27 @@ button{
 #inputs{
     font-weight: bold;
     padding:0 0 0 0.5rem;
-}
 
+}
+@media screen and (max-width:500px){
+    #select2, #select1 {
+        
+        margin: 0.7rem;
+       
+    }
+    .text-align{
+        margin:2rem;
+    }
+    #inputs{
+        padding:0.3rem;
+    }
+    button{
+        margin:1rem;
+        paddinG:0.2rem;
+    }
+    .names{
+        padding:1.5rem;
+    }
+
+
+}

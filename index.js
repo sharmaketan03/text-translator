@@ -31,6 +31,9 @@ else{
     let result=await response.json();
     console.log(result.data)
     getdata(result.data)
+    input.value=""
+    source_lang.value=""
+    target_lang.value=""
 }
    
 
