@@ -49,21 +49,21 @@ button{
 @media screen and (max-width:500px){
     #select2, #select1 {
         
-        margin: 0.7rem;
+        margin: 1.5rem;
        
     }
     .text-align{
         margin:2rem;
     }
     #inputs{
-        padding:0.3rem;
+        padding:0.5rem;
     }
     button{
         margin:1rem;
-        paddinG:0.2rem;
+        paddinG:0.5rem;
     }
     .names{
-        padding:1.5rem;
+        padding:2rem;
     }
 
 
